@@ -1,0 +1,35 @@
+Question 1 : Quelle est l'extension que l'on doit
+donner à un fichier JavaScript ?
+Réponse 1 : .js
+
+Question 2 : Selon vous, quels sont les avantages et les inconvénients
+du code directement intégré à la page web et
+du code placé dans un fichier externe ?
+Réponse 2 :
+    Avantages :
+    - Code directement intégré à la page web :
+        - Plus rapide à mettre en place
+        - Plus simple pour les petits projets
+        - Moins de conexion réseau
+    - Code placé dans un fichier externe :
+        - Plus facile à maintenir
+        - Plus facile à déboguer
+        - Plus facile à réutiliser
+        - Plus facile à partager
+    Inconvénients :
+    - Code directement intégré à la page web :
+        - Plus difficile à maintenir pour un gros projets
+        - Imposible à partager entre plusieurs pages
+    - Code placé dans un fichier externe :
+        - Plus long à mettre en place
+        - Plus de conexion réseau
+
+Question 3 : Selon vous, vaut-il mieux placer le code JavaScript
+ en début ou en fin de page web ?
+Réponse 3 : En fin de page web pour que le code soit exécuté après
+le chargement de la page HTML car le code JavaScript peut
+modifier le contenu de la page HTML et si le code est exécuté
+avant le chargement de la page HTML,le code JavaScript
+ne trouvera pas les éléments HTML qu'il doit modifier.
+Mais aussi car le code JavaScript peut ralentir le chargement de la
+page HTML.
